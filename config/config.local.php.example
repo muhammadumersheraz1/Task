@@ -1,0 +1,6 @@
+<?php
+/**
+ * Optional. Prefer putting secrets in project-root .env (see .env.example).
+ * Copy to config.local.php only if you need PHP-side overrides.
+ */
+return [];

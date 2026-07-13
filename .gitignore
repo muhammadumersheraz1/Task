@@ -1,0 +1,5 @@
+.env
+config/config.local.php
+storage/locks/*.lock
+storage/*.log
+.DS_Store

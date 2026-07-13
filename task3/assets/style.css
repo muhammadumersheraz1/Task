@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: "Source Sans 3", "Segoe UI", sans-serif;
+  background: #f3f1ec;
+  color: #1c1917;
+}
+.wrap { max-width: 960px; margin: 0 auto; padding: 1.25rem; }
+.top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; }
+.top nav a { margin-left: .75rem; color: #0f4c5c; text-decoration: none; font-weight: 600; }
+.top nav a:hover { text-decoration: underline; }
+h1 { font-size: 1.6rem; margin: 0 0 1rem; }
+.card-form, .filters, .flash { background: #fff; border: 1px solid #ddd6cb; padding: 1rem; margin-bottom: 1rem; }
+label { display: block; margin: .6rem 0 .25rem; font-weight: 600; font-size: .92rem; }
+input, select, textarea, button {
+  font: inherit; padding: .45rem .55rem; border: 1px solid #c4b8a8; border-radius: 4px; background: #fff;
+}
+textarea { width: 100%; min-height: 90px; box-sizing: border-box; }
+button, .btn {
+  background: #0f4c5c; color: #fff; border: none; cursor: pointer; text-decoration: none; display: inline-block;
+}
+button.secondary { background: #78716c; }
+.errors { color: #9f1239; background: #fff1f2; border: 1px solid #fecdd3; padding: .75rem 1rem; margin-bottom: 1rem; }
+.flash.ok { color: #166534; background: #f0fdf4; border-color: #bbf7d0; }
+table { width: 100%; border-collapse: collapse; background: #fff; font-size: .95rem; }
+th, td { border: 1px solid #e7e0d5; padding: .5rem .55rem; text-align: left; vertical-align: top; }
+th { background: #ebe4d8; }
+.filters { display: flex; gap: .75rem; flex-wrap: wrap; align-items: end; }
+.filters > div { flex: 1; min-width: 160px; }
+.muted { color: #78716c; font-size: .9rem; }
+.status-select { min-width: 120px; }
+.report-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; }
+.stat { background: #fff; border: 1px solid #ddd6cb; padding: 1.25rem; }
+.stat .n { font-size: 2rem; font-weight: 700; color: #0f4c5c; }
+.saving { opacity: .6; }
+@media (max-width: 640px) {
+  table { display: block; overflow-x: auto; }
+}
